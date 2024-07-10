@@ -15,6 +15,7 @@ const GenericPagination = ({ totalPost, postPerPage, setCurrentPage }) => {
     <Box className="d-flex justify-content-center p-5">
       <Stack spacing={2}>
         <Pagination
+          className="fs-1"
           count={pages.length}
           shape="rounded"
           onChange={(event, page) => handlePagination(page)}

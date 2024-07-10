@@ -27,7 +27,6 @@ const GenericModal = () => {
         onClose={handleClose}
         closeAfterTransition
         slots={{ backdrop: Backdrop }}
-        className='lol'
         slotProps={{
           backdrop: {
             timeout: 500,

@@ -40,6 +40,7 @@ const PokemonCard = ({ pokemon }) => {
                 </Box>
               ) : (
                 <CardMedia
+                  className="pokemon-img"
                   component="img"
                   height="100%"
                   image={pokemon.sprites.other.dream_world.front_default}
