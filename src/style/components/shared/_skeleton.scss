@@ -20,4 +20,16 @@
         height: sizer(2);
         width: sizer(5.625);
     }
+    @media #{$large_and_up}{
+        flex-basis: 31.5%;
+    }
+    @media #{$large_and_down}{
+        flex-basis: 48%;
+    }
+    @media #{$medium_and_up}{
+        flex-basis: 47.5%;
+    }
+    @media #{$small_and_up}{
+        flex-basis: 100%;
+    }
 }

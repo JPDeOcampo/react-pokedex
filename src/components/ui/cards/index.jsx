@@ -194,7 +194,7 @@ const Cards = () => {
   return (
     <>
       <Box className="cards-container px-3 px-sm-0">
-        {isApiLoading && Array.isArray(currentPageDisplay) ? (
+        {!isApiLoading && Array.isArray(currentPageDisplay) ? (
           Array.from({ length: postPerPage }).map((postPage, i) => (
             <CardSkeleton key={i} className="pokemon-cards" />
           ))
