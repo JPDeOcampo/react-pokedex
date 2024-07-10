@@ -1,0 +1,76 @@
+// Colors
+$sunset-orange: #FF6946;
+$black: #000000;
+$candy-red: #D80029;
+$granite-gray: #6B6161;
+$spanish-gray: #989595;
+$chinese-white: #E1E1E1;
+$light-gray: #F5F5F5;
+
+
+// Primary Colors
+$color-primary-bug: #B98623;
+$color-primary-dark: #202020;
+$color-primary-dragon: #FF5252;
+$color-primary-electric: #EEFF2E;
+$color-primary-fairy: #FF52CE;
+$color-primary-fire: #fc2929;
+$color-primary-flying: #D9D9D9;
+$color-primary-fighting: #7CBEB3;
+$color-primary-ghost: #202020;
+$color-primary-grass: #23B95F;
+$color-primary-ground: #b9b9b9;
+$color-primary-ice: #62D0FF;
+$color-primary-normal: #3E4557;
+$color-primary-poison: #090909;
+$color-primary-psychic: #214668;
+$color-primary-rock: #D9D9D9;
+$color-primary-steel: #D9D9D9;
+$color-primary-water: #11A9FF;
+
+// Secondary Colors
+$color-secondary-bug: #C69433;
+$color-secondary-bug-1: #ffc34d;
+
+$color-secondary-dark: #626262;
+$color-secondary-dragon: #FF6C6C;
+$color-secondary-electric: #0b0b0b;
+$color-secondary-fairy: #FF93E1;
+$color-secondary-fire: #ff7373;
+$color-secondary-fire-1: #ff8f8f;
+$color-idcard-fire: #ff9090;
+$color-secondary-flying: #989898;
+$color-secondary-fighting: #006359;
+$color-secondary-ghost: #B8B8B8;
+$color-secondary-grass: #30D773;
+$color-secondary-grass-1: #42ff8e;
+
+$color-secondary-ground: #4b4b4b;
+$color-secondary-ice: #2B8DA3;
+$color-secondary-normal: #0D0D0D;
+$color-secondary-poison: #0DE323;
+$color-secondary-psychic: #00101E;
+$color-secondary-rock: #989898;
+$color-secondary-steel: #454545;
+$color-secondary-water: #66C8FF;
+$color-secondary-water-1: #92d8ff;
+
+$white: #ffffff;
+
+// Responsive Font Size
+$font-size-normal: 16px;
+
+// Media queries
+$small_screen: 575px;
+$small_screen_up: 512px;
+$medium_screen: 767px;
+$medium_screen_up: 648px;
+$large_screen: 992px;
+$large_screen_up: 1200px;
+
+// Container
+$small_and_down: "(max-width: #{$small_screen})";
+$small_and_up: "(max-width: #{$small_screen_up})";
+$medium_and_up: "(max-width: #{$medium_screen_up})";
+$large_and_down: "(max-width: #{$large_screen})";
+$large_and_up: "(max-width: #{$large_screen_up})";

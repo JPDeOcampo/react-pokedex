@@ -1,0 +1,23 @@
+.skeleton-container{
+    border-radius: 10px;
+    flex-basis: calc(20% - 19.2px);
+    flex-grow: 0;
+    flex-shrink: 0;
+    height: 100%;
+    isolation: isolate;
+    overflow: hidden;
+    padding: initial;
+    position: relative;
+    width: 100%;
+
+    .skeleton-img{
+        height: sizer(8);
+    }
+    .skeleton-name{
+        height: sizer(2);
+    }
+    .skeleton-types{
+        height: sizer(2);
+        width: sizer(5.625);
+    }
+}

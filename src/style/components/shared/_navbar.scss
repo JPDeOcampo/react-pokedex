@@ -1,0 +1,19 @@
+.navbar {
+    background-color: $candy-red !important;
+    padding: sizer(0.8) 0;
+    >div{
+        width: 100%;
+    }
+    .img-logo{
+        width: sizer(3.125);
+    }
+    .search-container{
+        input{
+            padding: sizer(0.75) sizer(1);
+            width: 100%;
+        }
+        @media #{$small_and_down}{
+            width: 280px;
+        }
+    }
+}

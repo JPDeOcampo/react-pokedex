@@ -1,0 +1,20 @@
+.css-15x3rg2 {
+    max-height: 700px;
+    overflow-y: auto;
+    @media #{$small_and_down}{
+        max-width: 370px !important;
+        height: 600px;
+        max-height: 600px;
+        padding: 10px !important;
+        overflow: scroll;
+    }
+    .close-icon{
+        color: $granite-gray;
+        width: sizer(2);
+        height: sizer(2);
+        cursor: pointer;
+        &:hover{
+            opacity: 0.5;
+        }
+    }
+}
